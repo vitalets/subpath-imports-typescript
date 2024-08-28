@@ -3,10 +3,9 @@
     "target": "es2021",
     "module": "NodeNext",
     "resolvePackageJsonImports": true,
-    "rootDir": ".",
-    "outDir": "dist",
-    "customConditions": ["subpath-imports-dev"],
+    "customConditions": ["my-package-dev"],
     "noEmit": true,
+    "skipLibCheck": true,
   },
-  "include": ["**/*.ts"],
+  "include": ["**/*.ts", "**/*.mts"],
 }

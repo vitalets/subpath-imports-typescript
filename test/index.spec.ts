@@ -1,5 +1,6 @@
+import { expect, test } from 'vitest'
 import { foo } from '#utils.js';
 
-if (foo !== 42) {
-  throw new Error('foo is not 42');
-}
+test('foo is 42', () => {
+  expect(foo).toBe(42);
+});
