@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "NodeNext",
+    "resolvePackageJsonImports": true,
+    "rootDir": ".",
+    "outDir": "dist",
+    "customConditions": ["subpath-imports-dev"],
+    "noEmit": true,
+  },
+  "include": ["**/*.ts"],
+}

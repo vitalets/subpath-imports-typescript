@@ -1,0 +1,18 @@
+{
+  "name": "subpath-imports",
+  "type": "commonjs",
+  "imports": {
+    "#*": {
+      "subpath-imports-dev": "./dist/src/*", 
+      "default": "./dist/*" 
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "typescript": "5.4.5"
+  }
+}
