@@ -1,6 +1,5 @@
 {
-  "name": "subpath-imports",
-  "type": "commonjs",
+  "name": "subpath-imports-typescript",
   "imports": {
     "#*": {
       "my-package-dev": "./src/*",
@@ -11,14 +10,10 @@
     "tsc": "tsc",
     "build": "tsc -p tsconfig.build.json",
     "start": "node dist/index.js",
-    "vitest": "vitest run",
-    "jest": "jest"
+    "test": "vitest run"
   },
   "devDependencies": {
-    "@jest/globals": "29.7.0",
     "@types/node": "^18.15.0",
-    "jest": "29.7.0",
-    "ts-jest": "29.2.5",
     "typescript": "5.4.5",
     "vitest": "2.0.5"
   }
