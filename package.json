@@ -1,5 +1,8 @@
 {
   "name": "subpath-imports-typescript",
+  "imports": {
+    "#*": "./src/*"
+  },
   "scripts": {
     "tsc": "tsc",
     "build": "tsc -p tsconfig.build.json",

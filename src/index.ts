@@ -1,3 +1,3 @@
-import { foo } from './utils';
+import { foo } from '#utils.js';
 
 console.log(foo);
