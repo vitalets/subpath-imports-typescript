@@ -1,7 +1,7 @@
 {
   "name": "subpath-imports-typescript",
   "imports": {
-    "#*": "./src/*"
+    "#*": "./dist/*"
   },
   "scripts": {
     "tsc": "tsc",
