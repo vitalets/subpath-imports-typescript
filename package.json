@@ -1,11 +1,5 @@
 {
   "name": "subpath-imports-typescript",
-  "imports": {
-    "#*": {
-      "my-package-dev": "./src/*",
-      "default": "./dist/*"
-    }
-  },
   "scripts": {
     "tsc": "tsc",
     "build": "tsc -p tsconfig.build.json",

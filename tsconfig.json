@@ -2,8 +2,6 @@
   "compilerOptions": {
     "target": "es2021",
     "module": "NodeNext",
-    "resolvePackageJsonImports": true,
-    "customConditions": ["my-package-dev"],
     "noEmit": true,
     "skipLibCheck": true,
   },
