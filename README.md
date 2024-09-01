@@ -1,6 +1,6 @@
 # Example of TypeScript Project with Subpath Imports
 
-An example code for the article.
+An example code for the article [Setting up Subpath Imports in a TypeScript Project](https://dev.to/vitalets/setting-up-subpath-imports-in-a-typescript-project-4i0a).
 
 ## How to run
 
