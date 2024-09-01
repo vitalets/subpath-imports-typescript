@@ -1,16 +1,27 @@
-#
+# Example of TypeScript project with Subpath Imports
 
+An example code for the article.
 
-## Articles
-* https://dev.to/nodge/the-native-way-to-configure-path-aliases-in-frontend-projects-ce4
+## How to run
 
-## Docs
-[TypeScript docs on subpath imports](https://www.typescriptlang.org/docs/handbook/modules/reference.html#packagejson-imports-and-self-name-imports)
-[Node.js docs on subpath imports](https://nodejs.org/api/packages.html#subpath-imports)
+1. Clone the repo
+   ```
+   git clone https://github.com/vitalets/subpath-imports-typescript.git
+   ```
 
-## Related issues
-* [vitest#4046](https://github.com/vitest-dev/vitest/issues/4046)
-* [jest#12270](https://github.com/jestjs/jest/issues/12270)
-* [ts-node#1974](https://github.com/TypeStrong/ts-node/issues/1974)
-* [tsx#603](https://github.com/privatenumber/tsx/issues/603)
-* [esbuild#3358](https://github.com/evanw/esbuild/issues/3358)
+2. Change directory to `subpath-imports-typescript`
+   ```
+   cd subpath-imports-typescript
+   ```
+
+3. Install dependencies
+   ```
+   npm install
+   ```
+
+4. Run commands:
+  * `npm run tsc` - type-check the entire project
+  * `npm run test` - run tests against the actual code in `src`
+  * `npm run build` - compile the code from `src` into the `dist` directory
+  * `npm start` - run the project from the `dist` directory
+  * `npm run tsx` - run the project with `tsx`
