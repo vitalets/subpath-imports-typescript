@@ -1,4 +1,4 @@
-# Example of TypeScript project with Subpath Imports
+# Example of TypeScript Project with Subpath Imports
 
 An example code for the article.
 
