@@ -1,17 +1,17 @@
 {
   "name": "subpath-imports-typescript",
   "imports": {
-    "#*": {
-      "my-package-dev": "./src/*",
-      "default": "./dist/*"
-    }
+      "#*": {
+          "my-package-dev": "./src/*",
+          "default": "./dist/*"
+      }
   },
   "scripts": {
     "tsc": "tsc",
+    "test": "vitest run",
     "build": "tsc -p tsconfig.build.json",
     "start": "node dist/index.js",
-    "start:tsx": "tsx -C my-package-dev src",
-    "test": "vitest run"
+    "tsx": "tsx -C my-package-dev src/index.ts"
   },
   "devDependencies": {
     "@types/node": "^18.15.0",
