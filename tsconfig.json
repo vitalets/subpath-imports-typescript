@@ -3,6 +3,7 @@
     "target": "es2021",
     "module": "NodeNext",
     "noEmit": true,
+    "customConditions": ["my-package-dev"],
     "skipLibCheck": true,
   },
   "include": ["**/*.ts"],
